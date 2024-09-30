@@ -10,7 +10,8 @@ public class Book {
     private String description;
     private Double price;
 
-    public Book(String title, String author, String description, Double price) {
+    public Book(Integer id, String title, String author, String description, Double price) {
+        this.id = id;
         this.title = title;
         this.author = author;
         this.description = description;
